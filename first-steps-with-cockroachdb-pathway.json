@@ -1,0 +1,15 @@
+{
+  "title": "First Steps with CockroachDB",
+  "description": "This course teaches practical first steps with CockroachDB.",
+  "courses": [
+    {
+      "course_id": "start-a-single-node-cluster"
+    },
+    {
+      "course_id": "connect-with-the-sql-shell"
+    },
+    {
+      "course_id": "create-and-modify-tables"
+    }
+  ]
+}

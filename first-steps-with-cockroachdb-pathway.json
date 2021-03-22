@@ -16,6 +16,11 @@
       "course_id": "create-and-modify-tables",
       "title": "Create and Modify Tables",
       "description": "Create and modify tables using the built-in SQL shell."
+    },
+    {
+      "course_id": "introduction-to-secondary-indexes",
+      "title": "Introduction to Secondary Indexes",
+      "description": "See how the database executes queries and create secondary indexes."
     }
   ]
 }

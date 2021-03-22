@@ -57,6 +57,16 @@
         "port": 8080
       }
     ],
+    "terminals": [
+      {
+        "name": "Terminal 2",
+        "target": "host01"
+      },
+      {
+        "name": "Terminal 3",
+        "target": "host01"
+      }
+    ],
     "uilayout": "editor-terminal"
   },
   "backend": {

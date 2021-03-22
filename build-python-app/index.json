@@ -30,6 +30,12 @@
   },
   "environment": {
     "hideintro": true,
+    "terminals": [
+      {
+        "name": "Terminal 2",
+        "target": "host01"
+      }
+    ],
     "uilayout": "editor-terminal"
   },
   "backend": {

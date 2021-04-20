@@ -1,0 +1,75 @@
+{
+  "noindex": true,
+  "title": "Multi-Region Performance",
+  "description": "Use table locality patterns to get low-latency reads and writes in a multi-region CockroachDB cluster",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Simulate a multi-region cluster",
+        "text": "step1.md",
+        "foreground": "foreground.sh"
+      },
+      {
+        "title": "View node location and network latency",
+        "text": "step2.md"
+      },
+      {
+        "title": "Load and run MovR",
+        "text": "step3.md"
+      },
+      {
+        "title": "Check service latencies",
+        "text": "step4.md"
+      },
+      {
+        "title": "Configure database regions",
+        "text": "step5.md"
+      },
+      {
+        "title": "Congiure GLOBAL tables",
+        "text": "step6.md"
+      },
+      {
+        "title": "Configure REGIONAL BY ROW tables",
+        "text": "step7.md"
+      },
+      {
+        "title": "Re-check service latencies",
+        "text": "step8.md"
+      }
+    ],
+    "finish": {
+        "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "DB Console",
+        "port": 8080
+      }
+    ],
+    "terminals": [
+      {
+        "name": "Terminal 2",
+        "target": "host01"
+      },
+      {
+        "name": "Terminal 3",
+        "target": "host01"
+      },
+      {
+        "name": "Terminal 3",
+        "target": "host01"
+      }
+    ],
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}

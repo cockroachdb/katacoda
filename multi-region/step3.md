@@ -11,7 +11,7 @@ In terminal 2, load the MovR data set. The command options are mostly self-expla
 ```shell
 docker run -it --rm cockroachdb/movr:20.11.1 \
     --app-name "movr-load" \
-    --url "postgres://root@docker.for.mac.localhost:26257/movr?sslmode=disable" \
+    --url "postgres://root@[[HOST_IP]]:26257/movr?sslmode=disable" \
     --num-threads 1 \
     load \
     --num-users 100 \
@@ -33,7 +33,7 @@ Still in terminal 2, run MovR in the `us-east` region:
 ```shell
 docker run -it --rm cockroachdb/movr:20.11.1 \
     --app-name "movr-us-east" \
-    --url "postgres://root@docker.for.mac.localhost:26257/movr?sslmode=disable" \
+    --url "postgres://root@[[HOST_IP]]:26257/movr?sslmode=disable" \
     run \
     --city="boston" \
     --city="new york" \
@@ -45,7 +45,7 @@ In terminal 3, run MovR in the `us-west` region:
 ```shell
 docker run -it --rm cockroachdb/movr:20.11.1 \
     --app-name "movr-us-west" \
-    --url "postgres://root@docker.for.mac.localhost:26260/movr?sslmode=disable" \
+    --url "postgres://root@[[HOST_IP]]:26260/movr?sslmode=disable" \
     run \
     --city="los angeles" \
     --city="san francisco" \
@@ -57,7 +57,7 @@ In terminal 4, run MovR in the `eu-west` region:
 ```shell
 docker run -it --rm cockroachdb/movr:20.11.1 \
    --app-name "movr-eu-west" \
-   --url "postgres://root@docker.for.mac.localhost:26264/movr?sslmode=disable" \
+   --url "postgres://root@[[HOST_IP]]:26264/movr?sslmode=disable" \
    run \
    --city="amsterdam" \
    --city="paris" \

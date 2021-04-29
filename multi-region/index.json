@@ -9,7 +9,8 @@
       {
         "title": "Simulate a multi-region cluster",
         "text": "step1.md",
-        "foreground": "foreground.sh"
+        "foreground": "foreground.sh",
+        "background": "background.sh"
       },
       {
         "title": "View node location and network latency",

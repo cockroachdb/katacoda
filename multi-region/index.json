@@ -70,6 +70,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu:1804-4gb"
+    "imageid": "ubuntu:1804"
   }
 }

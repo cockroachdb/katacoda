@@ -1,4 +1,4 @@
-Back in the SQL shell, switch to the `movr` database:
+Back in the SQL shell in the first terminal, switch to the `movr` database:
 
 ```sql
 USE movr;

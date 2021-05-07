@@ -7,4 +7,7 @@ CockroachDB v21.1 offers improved multi-region capabilities that make it easier 
 
 To get you started, we're installing CockroachDB and MovR and then using the `cockroach demo` command to simulate a 9-node demo cluster spread across 3 regions, with network latency between regions simulated as well.
 
-Once you see the `defaultdb>` prompt, click **Continue**.
+Once you see a prompt like `root@127.61.177.245:26257/defaultdb>`:
+
+1. Take note of the IP address (the number between `@` and `:` following the colon). You will use it in your app's connection string in step 3.
+2. Click **Continue**.

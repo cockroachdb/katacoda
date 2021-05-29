@@ -1,6 +1,6 @@
 echo 'Installing a testing release of CockroachDB v21.1 and supporting spatial libraries...'
 
-wget -qO- https://binaries.cockroachdb.com/cockroach-v21.1.1.linux-amd64.tgz | tar  xvz
+curl https://binaries.cockroachdb.com/cockroach-v21.1.1.linux-amd64.tgz | tar -xz
 cp -i cockroach-v21.1.1.linux-amd64/cockroach /usr/local/bin/
 mkdir -p /usr/local/lib/cockroach
 cp -i cockroach-v21.1.1.linux-amd64/lib/libgeos.so /usr/local/lib/cockroach/

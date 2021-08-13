@@ -1,0 +1,47 @@
+{
+    "title": "CockroachDB: Simulating Region Failures",
+    "description": "Learn about CockroachDB's failover modes by simulating failures in the FriendsPay Application",
+    "difficulty": "Beginner",
+    "time": "15 minutes",
+    "details": {
+      "steps": [
+        {
+          "text": "environment.md",
+          "background": "configure-environment.sh"
+        },
+        {
+          "text": "features.md"
+        },
+        {
+          "text": "location-features-friendpay.md"
+        },
+        {
+          "text": "exploring-friendpay.md"
+        }
+      ],
+      "intro": {
+        "text": "intro.md",
+        "title": "What we'll be doing in this scenario",
+        "credits":"Created by Jowanza Joseph"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "terminal",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "target": "host01"
+        },
+        {
+          "name": "Terminal 3",
+          "target": "host01"
+        }
+      ]
+    },
+    "backend": {
+      "imageid": "ubuntu:1804"
+    }
+  }

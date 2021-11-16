@@ -1,4 +1,4 @@
-CockroachDB v21.1 offers improved multi-region capabilities that make it easier to run global applications. In this tutorial, you will experience these capabilities. Specifically, you will:
+In this tutorial, you will experience CockroachDB's multi-region capabilities. Specifically, you will:
 
 1. Get access to a simulated, multi-region CockroachDB cluster.
 1. Run a workload on the cluster using our fictional vehicle-sharing application called [MovR](https://www.cockroachlabs.com/docs/v21.1/movr.html).

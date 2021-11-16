@@ -1,4 +1,4 @@
-This playground gives you an interactive SQL shell to a temporary, single-node CockroachDB cluster running v21.1. The cluster is pre-loaded with a sample dataset and configured for CockroachDB's [spatial](https://www.cockroachlabs.com/docs/v20.2/spatial-features.html) functionality.
+This playground gives you an interactive SQL shell to a temporary, single-node CockroachDB cluster running v21.1. The cluster is pre-loaded with a sample dataset and configured for CockroachDB's [spatial](https://www.cockroachlabs.com/docs/v21.1/spatial-features.html) functionality.
 
 For the basics of CockroachDB SQL, see [Learn Cockroach SQL](https://www.cockroachlabs.com/docs/v21.1/learn-cockroachdb-sql.html).
 

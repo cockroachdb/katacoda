@@ -1,8 +1,8 @@
-This playground gives you an interactive SQL shell to a temporary, single-node CockroachDB cluster running v21.2. The cluster is pre-loaded with a sample dataset and configured for CockroachDB's [spatial](https://www.cockroachlabs.com/docs/v21.2/spatial-features.html) functionality.
+This playground gives you an interactive SQL shell to a temporary, single-node CockroachDB cluster running v22.1. The cluster is pre-loaded with a sample dataset and configured for CockroachDB's [spatial](https://www.cockroachlabs.com/docs/v21.1/spatial-features.html) functionality.
 
 For the basics of CockroachDB SQL, see [Learn Cockroach SQL](https://www.cockroachlabs.com/docs/cockroachcloud/learn-cockroachdb-sql.html).
 
-For full documentation on our SQL dialect, see [SQL Reference](https://www.cockroachlabs.com/docs/v21.2/sql-statements.html).
+For full documentation on our SQL dialect, see [SQL Reference](https://www.cockroachlabs.com/docs/v22.1/sql-statements.html).
 
 To get help directly in the SQL shell:
 - Run `\h`{{execute}} to see a full list of SQL statements

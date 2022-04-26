@@ -1,7 +1,7 @@
 {
   "noindex": true,
-  "title": "CockroachDB v20.2 Playground",
-  "description": "Use CockroachDB v20.2 in a playground environment",
+  "title": "CockroachDB v22.1 Playground",
+  "description": "Use a testing release of CockroachDB v21.1 in a playground environment",
   "details": {
     "steps": [
       {

@@ -1,10 +1,10 @@
-echo 'Installing CockroachDB v21.1 and supporting spatial libraries...'
+echo 'Installing CockroachDB v22.1 and supporting spatial libraries...'
 
-curl https://binaries.cockroachdb.com/cockroach-v21.1.12.linux-amd64.tgz | tar -xz
-cp -i cockroach-v21.1.12.linux-amd64/cockroach /usr/local/bin/
+curl https://binaries.cockroachdb.com/cockroach-v22.1.0-beta.3.linux-amd64.tgz | tar -xz
+cp -i cockroach-v22.1.0-beta.3.linux-amd64/cockroach /usr/local/bin/
 mkdir -p /usr/local/lib/cockroach
-cp -i cockroach-v21.1.12.linux-amd64/lib/libgeos.so /usr/local/lib/cockroach/
-cp -i cockroach-v21.1.12.linux-amd64/lib/libgeos_c.so /usr/local/lib/cockroach/
+cp -i cockroach-v22.1.0-beta.3.linux-amd64/lib/libgeos.so /usr/local/lib/cockroach/
+cp -i cockroach-v22.1.0-beta.3.linux-amd64/lib/libgeos_c.so /usr/local/lib/cockroach/
 
 echo 'Starting a secure single-node cluster...'
 
